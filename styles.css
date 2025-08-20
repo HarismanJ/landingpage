@@ -1,0 +1,245 @@
+
+.flex-container-one,
+.flex-container-three,
+.flex-container-two{
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    height:auto;
+    min-height: 400px;
+}
+
+
+/*Flex Container 1*/
+.flex-container-one{
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    width: 100%;
+    
+}
+
+
+
+.flex-container-one .top.container{
+    display:flex;
+    width: 100%;
+    height: 80px;
+    background-color: #1F2937;
+    align-items: center;
+    padding-left: 50px;
+    gap:30px;
+    padding-right: 10px;
+    
+    
+}
+
+.top.container .header-logo{
+    flex:1;
+    font-size: 16px;
+    color: #f9faf8;
+    box-sizing: border-box;
+
+}
+
+.header-links a{
+    flex:1;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin-right: 200px;
+    
+}
+
+
+.flex-container-one .main{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 150px;
+    gap: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-container-one .main .text{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: white;
+}
+
+.flex-container-one .main .text p{
+    font-size: 16px;
+    color: #E5E7EB;
+    font-weight: 900;
+    margin:3px;
+}
+
+.flex-container-one .main .text a,
+.flex-container-four .mini-box .button{
+    margin-top: 50px;
+    padding: 3px 9px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-style:unset;
+    background-color: #3882F6;
+    text-decoration: none;
+    width:170px
+    
+    
+}
+
+
+.flex-container-one .main .video{
+    flex:1.4
+}
+
+
+
+/*Flex Container 2*/
+
+.flex-container-two{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    
+    
+
+}
+
+.flex-container-two .text{
+    flex:1;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+
+.flex-container-two .content{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    
+}
+
+.flex-container-two .content img{
+    border: 3px solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+
+.flex-container-three{
+    display:flex;
+    background-color: #E5E7EB;
+    width: 100%;
+    justify-content: center;
+    padding: 100px 200px 80px 200px;
+    align-items: center;
+    flex-direction: column;
+    gap:1px;
+}
+
+.flex-container-three p{
+    font-style: italic;
+    color: #1F2937;
+    font-size: 29px;
+    font-weight: 1;
+}
+
+.flex-container-three .name{
+    font-style: light italic;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    align-self:self-end;
+}
+
+
+.flex-container-four{
+    display:flex;
+    width: 100%;
+    padding: 70px 175px;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container-four .mini-box{
+    flex:1;
+    display:flex;
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding-top: 75px;
+    padding-left: 160px;
+    padding-right: 180px;
+    padding-bottom: 80px;
+    gap:250px;
+    flex-wrap: wrap;
+    margin:0px;
+    
+    
+}
+.flex-container-four .mini-box .text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.flex-container-four .mini-box .text .large-text{
+    flex:1;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.flex-container-four .mini-box .text .small-text{
+    flex:1;
+    font-size: 17px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+.flex-container-four .mini-box .text p{
+    margin:0px;
+}
+
+.flex-container-four .mini-box .button-div{
+    padding-top: 8px; 
+    margin:0px;
+    font-size: 30px;
+}
+
+.flex-container-four .mini-box .button-div .button{
+    padding-top: 1px; 
+    margin:0px;
+    border-radius: 15px;
+    border-width: 3px;
+    
+}
+
+.footer{
+    display:flex;
+    background-color: #1F2937;
+    width: 100%;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+html,body{
+    margin:0px;
+}
+
